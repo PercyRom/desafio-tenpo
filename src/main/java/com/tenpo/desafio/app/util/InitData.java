@@ -49,7 +49,7 @@ public class InitData implements CommandLineRunner {
 			Usuario user = new Usuario();
 			user.setNombre("user");
 			user.setNombreUsuario("user");
-			user.setEmail("user@ibk.com.pe");
+			user.setEmail("user@tenpo.com.pe");
 			user.setPassword(passwordEncoder.encode("user"));
 			user.setRoles(roles);
 
@@ -60,7 +60,7 @@ public class InitData implements CommandLineRunner {
 			Usuario admin = new Usuario();
 			admin.setNombre("admin");
 			admin.setNombreUsuario("admin");
-			admin.setEmail("admin@ibk.com.pe");
+			admin.setEmail("admin@tenpo.com.pe");
 			admin.setPassword(passwordEncoder.encode("admin"));
 			admin.setRoles(roles);
 
