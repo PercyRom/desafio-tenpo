@@ -9,7 +9,6 @@ import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.data.domain.PageImpl;
@@ -27,7 +26,6 @@ import com.tenpo.desafio.app.secutiry.service.UserDetailsServiceImpl;
 import com.tenpo.desafio.app.service.AuditLoggerService;
 import com.tenpo.desafio.app.service.OperacionService;
 
-@DataJpaTest
 @WebMvcTest(OperacionController.class)
 class OperacionControllerTests {
 
